@@ -1,0 +1,41 @@
+/* CSS File: styles.css */
+body {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a18cd1);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+  color: white;
+  overflow: hidden;
+}
+.container {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+}
+h1 {
+  font-size: 2.5em;
+}
+p {
+  font-size: 1.3em;
+}
+.buttons {
+  margin-top: 20px;
+}
+.button {
+  background: pink;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  color: white;
+  margin: 5px;
+}
+.button:hover {
+  background: hotpink;
+}
